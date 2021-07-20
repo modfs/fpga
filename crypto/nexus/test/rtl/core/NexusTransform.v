@@ -193,7 +193,7 @@ xpm_cdc_handshake_WorkPkt_low (
     
     always @(posedge clk)
 	begin
-		// Active-low reset pulled low, reload work
+		// reset, reload work
 		if(HashRst)
 		begin
               PipeOutputGood <= 0;
@@ -213,8 +213,7 @@ xpm_cdc_handshake_WorkPkt_low (
 		
 		PipeOutputGood <= (PipeOutputGood << 1) | ~HashRst;
 		
-		// Lazy target check - check for 32 bits of zero, and filter further
-		// on the miner side; I am cheap and dirty
+		
 		GoodNonceFound <= PipeOutputGood[TOTALSTAGES-1] & (KeccakOutputQword < target);
 		NonceOut <= CurNonce - TOTALSTAGES;
 	end
