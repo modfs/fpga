@@ -81,7 +81,7 @@ wire	[M_AXI_ADDR_WIDTH-1:0]		S_AXI_AWADDR;
 assign S_AXI_AWADDR=  M_AXI_AWADDR[M_AXI_ADDR_WIDTH-1:0];
 assign S_AXI_ARADDR=  M_AXI_ARADDR[M_AXI_ADDR_WIDTH-1:0];
 
-//assign interrupts = 4'b0000;
+
 
 reg [63:0] NonceOut;
 reg GoodNonceFound;
@@ -109,7 +109,7 @@ clk_wiz_0 clk_wiz_mmcm (
 
 
 	
-//IBUFGDS bufgd_inst(.I(clk_p), .IB(clk_n), .O(i_clk));
+
 
 assign S_AXI_ACLK=i_clk;
 
