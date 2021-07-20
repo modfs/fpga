@@ -1,0 +1,54 @@
+hash/skminer-KeccakHash.o: hash/KeccakHash.cpp /usr/include/stdc-predef.h \
+ /usr/include/string.h \
+ /usr/include/powerpc64le-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/powerpc64le-linux-gnu/sys/cdefs.h \
+ /usr/include/powerpc64le-linux-gnu/bits/wordsize.h \
+ /usr/include/powerpc64le-linux-gnu/bits/long-double.h \
+ /usr/include/powerpc64le-linux-gnu/gnu/stubs.h \
+ /usr/include/powerpc64le-linux-gnu/gnu/stubs-64-v2.h \
+ /usr/lib/gcc/powerpc64le-linux-gnu/7/include/stddef.h \
+ /usr/include/powerpc64le-linux-gnu/bits/types/locale_t.h \
+ /usr/include/powerpc64le-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /usr/include/powerpc64le-linux-gnu/bits/strings_fortified.h \
+ /usr/include/powerpc64le-linux-gnu/bits/string_fortified.h \
+ hash/KeccakHash.h hash/KeccakSponge.h hash/KeccakF-1600-interface.h \
+ hash/KeccakF-1600-interface.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/string.h:
+
+/usr/include/powerpc64le-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/powerpc64le-linux-gnu/sys/cdefs.h:
+
+/usr/include/powerpc64le-linux-gnu/bits/wordsize.h:
+
+/usr/include/powerpc64le-linux-gnu/bits/long-double.h:
+
+/usr/include/powerpc64le-linux-gnu/gnu/stubs.h:
+
+/usr/include/powerpc64le-linux-gnu/gnu/stubs-64-v2.h:
+
+/usr/lib/gcc/powerpc64le-linux-gnu/7/include/stddef.h:
+
+/usr/include/powerpc64le-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/powerpc64le-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+/usr/include/powerpc64le-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/powerpc64le-linux-gnu/bits/string_fortified.h:
+
+hash/KeccakHash.h:
+
+hash/KeccakSponge.h:
+
+hash/KeccakF-1600-interface.h:
+
+hash/KeccakF-1600-interface.h:
