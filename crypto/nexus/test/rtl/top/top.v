@@ -93,10 +93,7 @@ wire [63:0] NonceOuts;
 wire [63:0] NonceOuts2;
 wire GoodNonceFounds,GoodNonceFounds2;
 
-reg rnHashRst;
-reg [1727:0] rWorkPkt; 
-reg [63:0] rInNonce;
-reg[63:0] rtarget;
+
 
 
 clk_wiz_0 clk_wiz_mmcm (
